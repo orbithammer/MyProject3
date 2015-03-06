@@ -1,0 +1,1120 @@
+﻿Log file open, 03/06/15 09:50:51
+LogInit:Display: Running engine for game: MyProject3
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.06-00.50.51:302][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.03.06-00.50.51:354][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.06-00.50.51:365][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.06-00.50.51:373][  0]LogInit: Object subsystem initialized
+[2015.03.06-00.50.51:375][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.06-00.50.51:375][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.06-00.50.51:375][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.06-00.50.51:375][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.06-00.50.51:375][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.06-00.50.51:375][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.06-00.50.51:375][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.06-00.50.51:375][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.06-00.50.51:381][  0]LogInit: Computer: BROCKTAB
+[2015.03.06-00.50.51:381][  0]LogInit: User: Penner
+[2015.03.06-00.50.51:381][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.03.06-00.50.51:381][  0]LogInit: High frequency timer resolution =2.240903 MHz
+[2015.03.06-00.50.51:381][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.03.06-00.50.51:381][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.06-00.50.51:381][  0]LogMemory: Process Physical Memory: 45.84 MB used, 45.84 MB peak
+[2015.03.06-00.50.51:381][  0]LogMemory: Process Virtual Memory: 22.29 MB used, 22.29 MB peak
+[2015.03.06-00.50.51:381][  0]LogMemory: Physical Memory: 2610.32 MB used, 8097.07 MB total
+[2015.03.06-00.50.51:381][  0]LogMemory: Virtual Memory: 292.94 MB used, 134217728.00 MB total
+[2015.03.06-00.50.51:391][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 5000 (Feature Level 11_0)
+[2015.03.06-00.50.51:391][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.03.06-00.50.51:392][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.03.06-00.50.51:392][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.03.06-00.50.51:392][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.06-00.50.51:396][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.03.06-00.50.51:401][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.06-00.50.51:448][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.06-00.50.51:583][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.06-00.50.53:778][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.06-00.50.54:307][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.06-00.50.54:366][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.06-00.50.54:408][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Penner/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.06-00.50.54:408][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Penner/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.06-00.50.54:408][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.06-00.50.54:408][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.06-00.50.54:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.06-00.50.54:527][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Penner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.06-00.50.54:770][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.06-00.50.54:770][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.06-00.50.55:127][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.06-00.50.55:193][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.06-00.50.55:857][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.06-00.50.56:062][  0]SourceControl: Info Source control is disabled
+[2015.03.06-00.50.56:063][  0]SourceControl: Info Source control is disabled
+[2015.03.06-00.50.56:063][  0]SourceControl: Info Source control is disabled
+[2015.03.06-00.50.56:063][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.06-00.50.56:063][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.06-00.50.56:070][  0]SourceControl: Info Source control is disabled
+[2015.03.06-00.50.56:225][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.06-00.50.56:225][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.06-00.50.56:299][  0]LogEngine: Initializing Engine...
+[2015.03.06-00.50.58:493][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.06-00.50.58:579][  0]LogInit: FAudioDevice initialized.
+[2015.03.06-00.50.58:646][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.06-00.50.58:667][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Penner/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.06-00.50.58:669][  0]LogInit: Texture streaming: Enabled
+[2015.03.06-00.50.58:753][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.06-00.50.58:753][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.06-00.50.58:753][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.06-00.50.58:753][  0]LogAnalytics: SetUserId 113ec87c4bad487c1a12ceb8606ed1df|0674dcb1897447579c28ab054defc83b|a3b4c019-7f12-41b0-8774-10828f5ed6ad
+[2015.03.06-00.50.58:753][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.06-00.50.58:771][  0]LogInit: Transaction tracking system initialized
+[2015.03.06-00.50.58:943][  0]BlueprintLog: New page: Editor Load
+[2015.03.06-00.50.58:974][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.03.06-00.50.58:974][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.06-00.50.59:570][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.06-00.50.59:975][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.06-00.51.00:252][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.06-00.51.00:253][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.06-00.51.00:294][  0]LogConsoleResponse:Display: 
+[2015.03.06-00.51.00:432][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.06-00.51.00:560][  0]SourceControl: Info Source control is disabled
+[2015.03.06-00.51.00:561][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.06-00.51.00:561][  0]LightingResults: New page: Lighting Build
+[2015.03.06-00.51.00:572][  0]MapCheck: New page: Map Check
+[2015.03.06-00.51.00:572][  0]LightingResults: New page: Lighting Build
+[2015.03.06-00.51.00:586][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007E4858E00
+[2015.03.06-00.51.01:223][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.06-00.51.01:223][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.06-00.51.01:224][  0]Cmd: MAP CHECKDEP
+[2015.03.06-00.51.01:224][  0]MapCheck: New page: Minimal_Default - Mar 6, 2015, 6:51:01 PM
+[2015.03.06-00.51.01:307][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.539ms to complete.
+[2015.03.06-00.51.01:307][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.746
+[2015.03.06-00.51.01:489][  0]LogCollectionManager: Loaded 0 collections in 0.001611 seconds
+[2015.03.06-00.51.01:498][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 1696 classes and 261 folders.
+[2015.03.06-00.51.01:526][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.03.06-00.51.01:573][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.06-00.51.01:575][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.06-00.51.01:578][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.06-00.51.01:605][  0]LogLoad: Full Startup: 12.13 seconds (BP compile: 0.08 seconds)
+[2015.03.06-00.51.02:016][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.03.06-00.51.02:128][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.03.06-00.51.02:462][  0]LogRenderer:Warning: Reallocating scene render targets to support 528x344 (Frame:6).
+[2015.03.06-00.51.04:619][  7]LogAssetRegistry: Asset discovery search completed in 5.6556 seconds
+[2015.03.06-00.51.16:758][761]Cmd: MAP LOAD FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.06-00.51.16:800][761]LightingResults: New page: Lighting Build
+[2015.03.06-00.51.16:838][761]LoadErrors: New page: Loading map: NewMap.umap
+[2015.03.06-00.51.16:839][761]MapCheck: New page: Map Check
+[2015.03.06-00.51.16:839][761]LightingResults: New page: Lighting Build
+[2015.03.06-00.51.16:855][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007E08C6C00
+[2015.03.06-00.51.16:900][761]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.06-00.51.16:900][761]LogAIModule: Creating AISystem for world NewMap
+[2015.03.06-00.51.16:932][761]Cmd: MAP CHECKDEP
+[2015.03.06-00.51.16:932][761]MapCheck: New page: NewMap - Mar 6, 2015, 6:51:16 PM
+[2015.03.06-00.51.17:012][761]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.908ms to complete.
+[2015.03.06-00.51.17:012][761]LogFileHelpers: Loading map 'NewMap' took 0.257
+[2015.03.06-00.51.40:281][140]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.03.06-00.51.42:677][266]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2015.03.06-00.51.42:718][266]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2015.03.06-00.51.46:658][493]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2015.03.06-00.54.02:430][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2015.03.06-00.54.26:254][626]LogStaticMesh: Building static mesh SM_Lamp_Wall...
+[2015.03.06-00.54.26:363][626]LogStaticMesh: Built static mesh [109.390274ms] /Game/StarterContent/Props/SM_Lamp_Wall.SM_Lamp_Wall
+[2015.03.06-00.54.26:426][629]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2015.03.06-00.54.28:599][759]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2015.03.06-00.55.04:334][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-00.55.08:631][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2015.03.06-00.55.54:345][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2015.03.06-00.56.07:126][196]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.03.06-00.56.19:888][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-00.56.31:480][275]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2015.03.06-00.56.38:368][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-00.56.40:068][611]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2015.03.06-00.56.47:018][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2015.03.06-00.56.54:065][290]Cmd: EDIT COPY
+[2015.03.06-00.56.55:779][351]Cmd: EDIT PASTE
+[2015.03.06-00.58.14:008][776]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.03.06-00.58.20:480][ 66]Cmd: EDIT COPY
+[2015.03.06-00.58.21:219][101]Cmd: EDIT PASTE
+[2015.03.06-00.58.22:672][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-00.58.22:752][165]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.03.06-00.58.24:476][244]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.03.06-00.58.33:907][674]Cmd: TRANSACTION UNDO
+[2015.03.06-00.58.33:907][674]LogEditorTransaction: Undo Move Actors
+[2015.03.06-00.58.35:782][751]Cmd: TRANSACTION UNDO
+[2015.03.06-00.58.35:782][751]LogEditorTransaction: Undo Move Actors
+[2015.03.06-00.59.20:211][848]LogTexture:Display: Building textures: T_Bush_D (AutoDXT)
+[2015.03.06-00.59.20:726][848]LogTexture:Display: Building textures: T_Bush_N (BC5)
+[2015.03.06-00.59.20:774][848]LogMaterial: Missing cached shader map for material M_Bush, compiling. 
+[2015.03.06-00.59.20:805][848]LogStaticMesh: Building static mesh SM_Bush...
+[2015.03.06-00.59.20:854][848]LogStaticMesh: Built static mesh [48.960175ms] /Game/StarterContent/Props/SM_Bush.SM_Bush
+[2015.03.06-00.59.20:872][848]LogActorFactory: Actor Factory created SM_Bush
+[2015.03.06-00.59.23:497][  0]LogActorFactory: Actor Factory created SM_Bush
+[2015.03.06-01.00.07:266][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.06-01.00.07:307][405]LogSavePackage: Save=18.407312ms
+[2015.03.06-01.00.07:307][405]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMapAE67A7134B6370D812C904B51A7032BC.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap'
+[2015.03.06-01.00.07:335][405]LogFileHelpers: Saving map 'NewMap' took 0.165
+[2015.03.06-01.00.50:135][200]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.03.06-01.10.07:716][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-01.10.07:737][235]LogSavePackage: Save=17.735262ms
+[2015.03.06-01.10.07:737][235]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto1FD21EEC9401825943C904C81C90B0FA0.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2015.03.06-01.10.07:744][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.104
+[2015.03.06-01.10.07:744][235]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.104
+[2015.03.06-01.17.14:393][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.03.06-01.17.38:197][986]LogTexture:Display: Building textures: T_Brick_Clay_New_D (AutoDXT)
+[2015.03.06-01.17.46:087][986]LogTexture:Display: Building textures: T_Brick_Clay_New_M (AutoDXT)
+[2015.03.06-01.17.54:674][986]LogTexture:Display: Building textures: T_Brick_Clay_New_N (BC5)
+[2015.03.06-01.17.55:709][986]LogTexture:Display: Building textures: T_Detail_Rocky_N (BC5)
+[2015.03.06-01.17.55:958][986]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.03.06-01.18.24:906][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-01.19.11:115][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-01.19.34:403][400]LogTexture:Display: Building textures: T_Frame_M (DXT1)
+[2015.03.06-01.19.35:515][400]LogTexture:Display: Building textures: T_Frame_N (BC5)
+[2015.03.06-01.19.36:180][400]LogMaterial: Missing cached shader map for material M_Frame, compiling. 
+[2015.03.06-01.19.36:192][400]LogStaticMesh: Building static mesh SM_DoorFrame...
+[2015.03.06-01.19.36:294][400]LogStaticMesh: Built static mesh [102.547501ms] /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2015.03.06-01.19.36:338][401]LogActorFactory: Actor Factory created SM_DoorFrame
+[2015.03.06-01.19.36:349][401]LogActorFactory: Actor Factory created SM_DoorFrame
+[2015.03.06-01.20.15:192][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-01.20.15:216][682]LogSavePackage: Save=20.601963ms
+[2015.03.06-01.20.15:216][682]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto2796E633F47EF9D001ED859AF80C3B867.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2015.03.06-01.20.15:224][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.102
+[2015.03.06-01.20.15:224][682]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.102
+[2015.03.06-01.20.37:612][993]Cmd: DELETE
+[2015.03.06-01.20.37:612][993]Cmd: ACTOR DELETE
+[2015.03.06-01.20.37:613][993]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-01.20.37:642][993]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2015.03.06-01.20.39:660][111]LogStaticMesh: Building static mesh SM_PillarFrame...
+[2015.03.06-01.20.39:706][111]LogStaticMesh: Built static mesh [46.245644ms] /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame
+[2015.03.06-01.20.39:719][111]LogActorFactory: Actor Factory created SM_PillarFrame
+[2015.03.06-01.20.40:920][183]LogActorFactory: Actor Factory created SM_PillarFrame
+[2015.03.06-01.20.41:775][234]LogActorFactory: Actor Factory created SM_PillarFrame
+[2015.03.06-01.20.46:911][512]Cmd: DELETE
+[2015.03.06-01.20.46:911][512]Cmd: ACTOR DELETE
+[2015.03.06-01.20.46:912][512]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-01.20.46:940][512]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.03.06-01.21.11:538][811]LogActorFactory: Actor Factory created SM_DoorFrame
+[2015.03.06-01.21.16:440][105]LogActorFactory: Actor Factory created SM_DoorFrame
+[2015.03.06-01.22.53:851][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2015.03.06-01.24.36:297][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-01.24.58:603][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-01.25.20:942][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.03.06-01.26.59:337][412]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.03.06-01.27.09:615][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-01.27.50:670][476]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.03.06-01.28.03:471][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.06-01.28.03:513][221]LogSavePackage: Save=21.202168ms
+[2015.03.06-01.28.03:513][221]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap5052A189417E4376A08748955E452439.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap'
+[2015.03.06-01.28.03:539][221]LogFileHelpers: Saving map 'NewMap' took 0.150
+[2015.03.06-01.28.21:563][710]LogStaticMesh: Building static mesh SM_WindowFrame...
+[2015.03.06-01.28.21:617][710]LogStaticMesh: Built static mesh [53.735035ms] /Game/StarterContent/Props/SM_WindowFrame.SM_WindowFrame
+[2015.03.06-01.28.21:642][710]LogActorFactory: Actor Factory created SM_WindowFrame
+[2015.03.06-01.28.23:970][849]LogActorFactory: Actor Factory created SM_WindowFrame
+[2015.03.06-01.28.49:431][370]Cmd: EDIT COPY
+[2015.03.06-01.28.50:798][452]Cmd: EDIT PASTE
+[2015.03.06-01.29.06:349][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.06-01.29.06:391][369]LogSavePackage: Save=20.454700ms
+[2015.03.06-01.29.06:391][369]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap33533FA74CF67CB1355379B6ADE298F5.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap'
+[2015.03.06-01.29.06:417][369]LogFileHelpers: Saving map 'NewMap' took 0.157
+[2015.03.06-01.31.32:083][906]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.06-01.31.32:084][906]PIE: New page: PIE session: NewMap (Mar 6, 2015, 7:31:32 PM)
+[2015.03.06-01.31.32:089][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004581s)
+[2015.03.06-01.31.32:091][906]LogPlayLevel: PIE: World Init took: (0.001828s)
+[2015.03.06-01.31.32:091][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006677s)
+[2015.03.06-01.31.32:143][906]LogWorld: Game class is 'GameMode'
+[2015.03.06-01.31.32:165][906]LogAIModule: Creating AISystem for world NewMap
+[2015.03.06-01.31.32:169][906]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2015.03.06-10.31.32
+[2015.03.06-01.31.32:173][906]LogWorld: Bringing up level for play took: 0.007504
+[2015.03.06-01.31.32:195][906]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.064
+[2015.03.06-01.31.55:584][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007E656D1C0
+[2015.03.06-01.32.54:316][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-01.33.03:306][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.03.06-01.33.07:438][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-01.33.13:462][655]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
+[2015.03.06-01.33.22:540][655]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
+[2015.03.06-01.33.23:777][655]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2015.03.06-01.33.32:043][655]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2015.03.06-01.33.54:156][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-01.34.16:412][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-01.34.40:922][949]LogTexture:Display: Building textures: T_Concrete_Poured_D (AutoDXT)
+[2015.03.06-01.34.50:935][949]LogTexture:Display: Building textures: T_Concrete_Poured_N (BC5)
+[2015.03.06-01.34.52:009][949]LogMaterial: Missing cached shader map for material M_Concrete_Poured, compiling. 
+[2015.03.06-01.37.17:566][582]LogTexture:Display: Building textures: T_Rock_Sandstone_D (AutoDXT)
+[2015.03.06-01.37.25:670][582]LogTexture:Display: Building textures: T_Rock_Sandstone_N (BC5)
+[2015.03.06-01.37.26:704][582]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2015.03.06-01.38.02:561][290]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.03.06-01.38.31:947][ 32]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.03.06-01.38.42:553][659]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.03.06-01.39.04:167][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2015.03.06-01.39.06:318][ 66]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.03.06-01.39.30:864][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-01.39.30:888][493]LogSavePackage: Save=20.412308ms
+[2015.03.06-01.39.30:888][493]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto3AD68D14940E2E685ED491BAA1C723A74.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2015.03.06-01.39.30:897][493]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.105
+[2015.03.06-01.39.30:897][493]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.105
+[2015.03.06-01.39.38:962][954]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.03.06-01.41.57:822][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.06-01.41.57:866][276]LogSavePackage: Save=18.943256ms
+[2015.03.06-01.41.57:866][276]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMapDD13366C4B41E6E21C9A9AB1ED01E6D5.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap'
+[2015.03.06-01.41.57:895][276]LogFileHelpers: Saving map 'NewMap' took 0.161
+[2015.03.06-01.42.00:488][425]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.06-01.42.00:488][425]PIE: New page: PIE session: NewMap (Mar 6, 2015, 7:42:00 PM)
+[2015.03.06-01.42.00:492][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003030s)
+[2015.03.06-01.42.00:494][425]LogPlayLevel: PIE: World Init took: (0.001675s)
+[2015.03.06-01.42.00:494][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004974s)
+[2015.03.06-01.42.00:526][425]LogWorld: Game class is 'GameMode'
+[2015.03.06-01.42.00:527][425]LogAIModule: Creating AISystem for world NewMap
+[2015.03.06-01.42.00:531][425]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2015.03.06-10.42.00
+[2015.03.06-01.42.00:532][425]LogWorld: Bringing up level for play took: 0.004234
+[2015.03.06-01.42.00:534][425]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.403
+[2015.03.06-01.42.37:519][639]Set new viewmode: Wireframe
+[2015.03.06-01.42.38:586][703]Set new viewmode: Wireframe
+[2015.03.06-01.42.39:861][830]Set new viewmode: Wireframe
+[2015.03.06-01.42.40:478][872]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007D67F40E0
+[2015.03.06-01.42.46:543][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.03.06-01.43.00:602][ 48]Cmd: TRANSACTION UNDO
+[2015.03.06-01.43.00:602][ 48]LogEditorTransaction: Undo Replace component used material
+[2015.03.06-01.43.29:425][671]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2015.03.06-01.43.30:483][671]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2015.03.06-01.43.39:915][ 72]LogTexture:Display: Building textures: T_Metal_Gold_D (AutoDXT)
+[2015.03.06-01.43.49:569][ 72]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2015.03.06-01.47.26:680][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-01.47.54:799][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2015.03.06-01.48.03:106][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2015.03.06-01.48.19:964][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame2)
+[2015.03.06-01.49.55:158][910]LogActorFactory: Actor Factory created SM_Statue
+[2015.03.06-01.49.58:381][ 96]LogActorFactory: Actor Factory created SM_Statue
+[2015.03.06-01.50.06:923][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-01.50.09:516][712]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.06-01.50.09:516][712]PIE: New page: PIE session: NewMap (Mar 6, 2015, 7:50:09 PM)
+[2015.03.06-01.50.09:524][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006876s)
+[2015.03.06-01.50.09:526][712]LogPlayLevel: PIE: World Init took: (0.001966s)
+[2015.03.06-01.50.09:526][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009170s)
+[2015.03.06-01.50.09:559][712]LogWorld: Game class is 'GameMode'
+[2015.03.06-01.50.09:562][712]LogAIModule: Creating AISystem for world NewMap
+[2015.03.06-01.50.09:570][712]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2015.03.06-10.50.09
+[2015.03.06-01.50.09:571][712]LogWorld: Bringing up level for play took: 0.008149
+[2015.03.06-01.50.09:575][712]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.555
+[2015.03.06-01.50.20:325][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007F2B1E340
+[2015.03.06-01.50.24:560][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Statue)
+[2015.03.06-01.50.33:430][968]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2015.03.06-01.50.46:653][461]LogTexture:Display: Building textures: T_Spark_Core (AutoDXT)
+[2015.03.06-01.50.46:873][461]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2015.03.06-01.50.57:719][821]LogTexture:Display: Building textures: T_Metal_Rust_D (AutoDXT)
+[2015.03.06-01.51.08:464][821]LogTexture:Display: Building textures: T_Metal_Rust_N (BC5)
+[2015.03.06-01.51.09:436][821]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2015.03.06-01.51.12:460][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2015.03.06-01.51.40:475][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.06-01.51.40:525][145]LogSavePackage: Save=23.957752ms
+[2015.03.06-01.51.40:525][145]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap06E69E4046DCC5F7FD9D86BF1734CB58.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap'
+[2015.03.06-01.51.40:554][145]LogFileHelpers: Saving map 'NewMap' took 0.197
+[2015.03.06-02.01.03:833][886]MapCheck: New page: Map Check
+[2015.03.06-02.01.03:870][886]LightingResults: New page: Lighting Build - Mar 6, 2015, 8:01:03 PM
+[2015.03.06-02.01.07:468][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.06-02.01.07:468][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.06-02.01.07:468][886]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.06-02.01.07:468][886]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.06-02.01.07:468][886]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.06-02.01.07:739][886]LogEditorBuildUtils: Build time 0:00:03
+[2015.03.06-02.01.07:747][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Sandstone, compiling. 
+[2015.03.06-02.01.07:753][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Sandstone, compiling. 
+[2015.03.06-02.01.07:757][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2015.03.06-02.01.07:762][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2015.03.06-02.01.07:784][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2015.03.06-02.01.07:793][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2015.03.06-02.01.07:813][888]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2015.03.06-02.01.07:822][888]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2015.03.06-02.01.07:847][889]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Gold, compiling. 
+[2015.03.06-02.01.07:857][889]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Gold, compiling. 
+[2015.03.06-02.01.07:879][890]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Lamp, compiling. 
+[2015.03.06-02.01.07:887][890]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Lamp, compiling. 
+[2015.03.06-02.01.07:935][891]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2015.03.06-02.01.07:942][891]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2015.03.06-02.01.07:952][891]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2015.03.06-02.01.08:001][892]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Rust, compiling. 
+[2015.03.06-02.01.08:006][892]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Rust, compiling. 
+[2015.03.06-02.01.08:056][893]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Statue, compiling. 
+[2015.03.06-02.01.08:063][893]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Statue, compiling. 
+[2015.03.06-02.01.08:116][894]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.03.06-02.01.08:126][894]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.03.06-02.01.40:615][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-02.01.40:659][546]LogSavePackage: Save=38.269840ms
+[2015.03.06-02.01.40:660][546]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto46BBC5C7840A4E44CCA0815954155D7E6.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2015.03.06-02.01.40:669][546]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.145
+[2015.03.06-02.01.40:669][546]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2015.03.06-02.02.08:691][188]Job is a success!
+[2015.03.06-02.02.08:889][189]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.06-02.02.09:493][189]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.06-02.02.09:957][189]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.03.06-02.02.10:040][189]Lightmass on BROCKTAB: 56.8 sec total, 377 ms importing, 61 ms setup, 1.34 sec photons, 54.9 sec processing, 0 ms extra exporting [16/16 mappings]. Threads: 3:39 min total, 2:32 min processing.
+[2015.03.06-02.02.10:092][189]LogStaticLightingSystem: Illumination: 1:06 min (1.18 sec encoding lightmaps)
+[2015.03.06-02.02.10:092][189]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.03.06-02.02.10:092][189]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 1 textures
+[2015.03.06-02.02.10:496][190]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.03.06-02.02.10:496][190]MapCheck: New page: NewMap - Mar 6, 2015, 8:02:10 PM
+[2015.03.06-02.02.10:595][190]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.231ms to complete.
+[2015.03.06-02.02.45:167][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.03.06-02.02.50:557][594]Cmd: EDIT COPY
+[2015.03.06-02.02.51:107][627]Cmd: EDIT PASTE
+[2015.03.06-02.03.35:636][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2015.03.06-02.03.37:968][426]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_TableRound)
+[2015.03.06-02.03.39:860][536]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Statue)
+[2015.03.06-02.03.42:379][684]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Chair2)
+[2015.03.06-02.03.43:643][756]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.03.06-02.03.44:505][804]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2015.03.06-02.03.45:194][842]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-02.03.47:648][985]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame)
+[2015.03.06-02.03.50:470][150]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame2)
+[2015.03.06-02.03.55:155][423]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2015.03.06-02.03.56:232][483]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight)
+[2015.03.06-02.04.04:203][954]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x400)
+[2015.03.06-02.04.10:078][300]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight2)
+[2015.03.06-02.04.11:530][385]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2015.03.06-02.04.36:699][850]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.06-02.04.43:988][256]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.06-02.04.44:799][301]Cmd: TRANSACTION UNDO
+[2015.03.06-02.04.44:799][301]LogEditorTransaction: Undo Move Actors
+[2015.03.06-02.04.44:844][301]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.PointLight2_4.LightComponent0) Component already registered.
+[2015.03.06-02.04.51:839][661]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.06-02.05.33:552][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-02.05.44:083][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.03.06-02.06.09:756][ 99]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT)
+[2015.03.06-02.06.19:013][ 99]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT)
+[2015.03.06-02.06.28:572][ 99]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_N (BC5)
+[2015.03.06-02.06.29:430][ 99]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2015.03.06-02.08.55:413][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.03.06-02.09.48:880][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-02.09.50:535][441]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.03.06-02.09.52:299][545]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x400)
+[2015.03.06-02.09.54:368][667]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2015.03.06-02.09.55:370][725]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight)
+[2015.03.06-02.09.57:356][843]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame)
+[2015.03.06-02.09.59:343][961]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame2)
+[2015.03.06-02.10.01:012][ 60]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2015.03.06-02.10.07:175][429]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight2)
+[2015.03.06-02.10.08:942][534]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2015.03.06-02.10.17:811][ 65]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Lamp_Wall)
+[2015.03.06-02.10.18:881][128]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight3)
+[2015.03.06-02.10.30:970][852]Cmd: TRANSACTION UNDO
+[2015.03.06-02.10.30:971][852]LogEditorTransaction: Undo Move Actors
+[2015.03.06-02.10.30:984][852]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.SM_Lamp_Wall2_12.StaticMeshComponent0) Component already registered.
+[2015.03.06-02.10.30:986][852]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.SM_WindowFrame2.StaticMeshComponent0) Component already registered.
+[2015.03.06-02.10.33:933][ 16]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-02.11.14:310][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.03.06-02.11.35:953][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-02.11.46:250][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.03.06-02.11.56:928][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-02.11.57:208][620]LogSavePackage: Save=273.109985ms
+[2015.03.06-02.11.57:208][620]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto512D69F2B43A13BA32BE8B7A0D23836B5.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto5.umap'
+[2015.03.06-02.11.57:215][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.363
+[2015.03.06-02.11.57:215][620]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.363
+[2015.03.06-02.13.17:570][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.03.06-02.14.03:880][750]LogUnrealMath: Expression Error : No value recognized
+[2015.03.06-02.14.03:880][750]LogUnrealMath: Expression Error : Error in expression
+[2015.03.06-02.14.03:880][750]LogUnrealMath: Expression Error : No value recognized
+[2015.03.06-02.14.03:880][750]LogUnrealMath: Expression Error : Error in expression
+[2015.03.06-02.14.06:955][863]Cmd: TRANSACTION UNDO
+[2015.03.06-02.14.06:956][863]LogEditorTransaction: Undo Move Actors
+[2015.03.06-02.14.14:761][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.03.06-02.15.53:191][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling)
+[2015.03.06-02.15.55:939][774]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight)
+[2015.03.06-02.16.52:658][658]MapCheck: New page: Map Check
+[2015.03.06-02.16.52:679][658]LightingResults: New page: Lighting Build - Mar 6, 2015, 8:16:52 PM
+[2015.03.06-02.16.57:230][658]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.06-02.16.57:230][658]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.06-02.16.57:230][658]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.06-02.16.57:230][658]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.06-02.16.57:230][658]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.06-02.16.57:341][658]LogEditorBuildUtils: Build time 0:00:04
+[2015.03.06-02.16.57:348][658]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2015.03.06-02.16.57:350][658]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2015.03.06-02.17.43:800][132]Job is a success!
+[2015.03.06-02.17.44:467][133]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.03.06-02.17.45:033][133]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.03.06-02.17.45:639][133]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.03.06-02.17.45:711][133]Lightmass on BROCKTAB: 47.1 sec total, 271 ms importing, 44 ms setup, 1.01 sec photons, 45.7 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 3:03 min total, 2:04 min processing.
+[2015.03.06-02.17.45:720][133]LogStaticLightingSystem: Illumination: 52.6 sec (1.32 sec encoding lightmaps)
+[2015.03.06-02.17.45:720][133]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.03.06-02.17.45:720][133]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.03.06-02.17.46:252][134]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.03.06-02.17.46:252][134]MapCheck: New page: NewMap - Mar 6, 2015, 8:17:46 PM
+[2015.03.06-02.17.46:467][134]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 214.214ms to complete.
+[2015.03.06-02.17.55:597][382]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.06-02.17.55:597][382]PIE: New page: PIE session: NewMap (Mar 6, 2015, 8:17:55 PM)
+[2015.03.06-02.17.55:600][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002860s)
+[2015.03.06-02.17.55:602][382]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2015.03.06-02.17.55:602][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004766s)
+[2015.03.06-02.17.55:632][382]LogWorld: Game class is 'GameMode'
+[2015.03.06-02.17.55:634][382]LogAIModule: Creating AISystem for world NewMap
+[2015.03.06-02.17.55:638][382]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2015.03.06-11.17.55
+[2015.03.06-02.17.55:639][382]LogWorld: Bringing up level for play took: 0.004299
+[2015.03.06-02.17.55:641][382]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.49
+[2015.03.06-02.18.33:062][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007828EF7E0
+[2015.03.06-02.18.34:660][716]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.03.06-02.19.47:171][ 22]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.06-02.19.47:172][ 22]PIE: New page: PIE session: NewMap (Mar 6, 2015, 8:19:47 PM)
+[2015.03.06-02.19.47:178][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005763s)
+[2015.03.06-02.19.47:181][ 22]LogPlayLevel: PIE: World Init took: (0.002618s)
+[2015.03.06-02.19.47:181][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008744s)
+[2015.03.06-02.19.47:215][ 22]LogWorld: Game class is 'GameMode'
+[2015.03.06-02.19.47:217][ 22]LogAIModule: Creating AISystem for world NewMap
+[2015.03.06-02.19.47:223][ 22]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2015.03.06-11.19.47
+[2015.03.06-02.19.47:224][ 22]LogWorld: Bringing up level for play took: 0.006680
+[2015.03.06-02.19.47:227][ 22]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.903
+[2015.03.06-02.20.06:898][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000078E79FBA0
+[2015.03.06-02.21.10:283][485]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.03.06-02.22.57:303][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-02.22.57:556][ 76]LogSavePackage: Save=248.456985ms
+[2015.03.06-02.22.57:556][ 76]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto626158595425C4C37F813C99D3487B3DE.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto6.umap'
+[2015.03.06-02.22.57:563][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.334
+[2015.03.06-02.22.57:563][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.334
+[2015.03.06-02.23.14:326][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.06-02.23.14:589][336]LogSavePackage: Save=241.852951ms
+[2015.03.06-02.23.14:589][336]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap115D43E54239B410D98AABBD82553D26.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap'
+[2015.03.06-02.23.14:617][336]LogFileHelpers: Saving map 'NewMap' took 0.379
+[2015.03.06-02.24.59:827][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-02.25.18:824][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-02.25.56:710][248]Cmd: TRANSACTION UNDO
+[2015.03.06-02.25.56:710][248]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-02.26.00:907][484]Cmd: TRANSACTION UNDO
+[2015.03.06-02.26.00:908][484]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-02.26.07:048][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-02.26.10:050][ 16]Cmd: EDIT COPY
+[2015.03.06-02.26.10:583][ 48]Cmd: EDIT PASTE
+[2015.03.06-02.32.16:212][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.03.06-02.32.19:921][202]LogActorFactory: Actor Factory created Wall_500x500
+[2015.03.06-02.32.21:162][249]LogActorFactory: Actor Factory created Wall_500x500
+[2015.03.06-02.32.27:146][488]Cmd: TRANSACTION UNDO
+[2015.03.06-02.32.27:146][488]LogEditorTransaction: Undo Create Actors
+[2015.03.06-02.32.28:877][540]LogActorFactory: Actor Factory created Wall_400x400
+[2015.03.06-02.32.30:705][605]LogActorFactory: Actor Factory created Wall_400x400
+[2015.03.06-02.33.21:139][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-02.33.23:627][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-02.33.23:935][862]LogSavePackage: Save=300.642181ms
+[2015.03.06-02.33.23:935][862]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto716C9502D430585AF27EEE3AD786B8D2E.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto7.umap'
+[2015.03.06-02.33.23:942][862]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.402
+[2015.03.06-02.33.23:942][862]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.402
+[2015.03.06-02.33.24:605][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-02.33.48:479][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-02.34.26:307][802]Cmd: TRANSACTION UNDO
+[2015.03.06-02.34.26:307][802]LogEditorTransaction: Undo Move Actors
+[2015.03.06-02.35.24:957][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-02.35.40:939][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-02.36.19:372][263]LogStaticMesh: Building static mesh Pillar_50x500...
+[2015.03.06-02.36.19:458][263]LogStaticMesh: Built static mesh [87.519630ms] /Game/StarterContent/Architecture/Pillar_50x500.Pillar_50x500
+[2015.03.06-02.36.19:623][272]LogActorFactory: Actor Factory created Pillar_50x500
+[2015.03.06-02.36.23:595][476]LogActorFactory: Actor Factory created Pillar_50x500
+[2015.03.06-02.36.25:218][557]Cmd: DELETE
+[2015.03.06-02.36.25:219][557]Cmd: ACTOR DELETE
+[2015.03.06-02.36.25:221][557]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-02.36.25:267][557]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2015.03.06-02.36.48:488][787]LogStaticMesh: Building static mesh Wall_400x200...
+[2015.03.06-02.36.48:534][787]LogStaticMesh: Built static mesh [46.416111ms] /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2015.03.06-02.36.48:551][787]LogActorFactory: Actor Factory created Wall_400x200
+[2015.03.06-02.36.49:558][846]LogActorFactory: Actor Factory created Wall_400x200
+[2015.03.06-02.36.55:039][155]LogActorFactory: Actor Factory created Wall_400x200
+[2015.03.06-02.36.56:295][217]Cmd: TRANSACTION UNDO
+[2015.03.06-02.36.56:295][217]LogEditorTransaction: Undo Create Actors
+[2015.03.06-02.37.00:899][436]LogStaticMesh: Building static mesh Wall_400x300...
+[2015.03.06-02.37.00:948][436]LogStaticMesh: Built static mesh [50.003502ms] /Game/StarterContent/Architecture/Wall_400x300.Wall_400x300
+[2015.03.06-02.37.00:979][436]LogActorFactory: Actor Factory created Wall_400x300
+[2015.03.06-02.37.02:994][552]LogActorFactory: Actor Factory created Wall_400x300
+[2015.03.06-02.37.04:682][637]Cmd: TRANSACTION UNDO
+[2015.03.06-02.37.04:682][637]LogEditorTransaction: Undo Create Actors
+[2015.03.06-02.37.08:227][796]LogActorFactory: Actor Factory created Wall_500x500
+[2015.03.06-02.37.13:612][ 94]LogActorFactory: Actor Factory created Wall_500x500
+[2015.03.06-02.39.20:032][586]Cmd: EDIT COPY
+[2015.03.06-02.39.20:462][604]Cmd: EDIT PASTE
+[2015.03.06-02.39.32:839][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-02.39.53:444][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-02.40.36:120][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2015.03.06-02.40.39:159][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-02.41.10:976][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-02.42.08:348][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2015.03.06-02.42.31:419][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-02.43.18:523][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x400)
+[2015.03.06-02.43.27:428][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-02.43.27:723][ 22]LogSavePackage: Save=287.605927ms
+[2015.03.06-02.43.27:723][ 22]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto80575757644F20FBC4F9D0F857954A0E4.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto8.umap'
+[2015.03.06-02.43.27:730][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.384
+[2015.03.06-02.43.27:730][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.384
+[2015.03.06-02.43.34:112][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-02.44.24:587][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-02.44.37:458][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-02.44.38:812][211]Cmd: DELETE
+[2015.03.06-02.44.38:812][211]Cmd: ACTOR DELETE
+[2015.03.06-02.44.38:814][211]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-02.44.38:864][211]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.03.06-02.44.44:102][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.03.06-02.45.05:482][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.06-02.45.19:027][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-02.47.19:598][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2015.03.06-02.47.49:232][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-02.48.36:551][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2015.03.06-02.48.51:162][ 42]Cmd: TRANSACTION UNDO
+[2015.03.06-02.48.51:163][ 42]LogEditorTransaction: Undo Set actor scale
+[2015.03.06-02.49.05:579][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.03.06-02.49.17:019][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-02.49.18:215][290]Cmd: DELETE
+[2015.03.06-02.49.18:215][290]Cmd: ACTOR DELETE
+[2015.03.06-02.49.18:217][290]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-02.49.18:267][290]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2015.03.06-02.49.19:636][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.03.06-02.49.25:055][617]Cmd: EDIT COPY
+[2015.03.06-02.49.26:513][685]Cmd: EDIT PASTE
+[2015.03.06-02.50.10:798][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.03.06-02.50.27:387][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2015.03.06-02.50.28:968][462]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_TableRound)
+[2015.03.06-02.50.30:014][508]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Chair2)
+[2015.03.06-02.50.31:502][574]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Statue)
+[2015.03.06-02.50.42:268][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.03.06-02.50.43:570][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2015.03.06-02.51.02:971][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2015.03.06-02.51.07:272][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2015.03.06-02.51.24:146][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2015.03.06-02.51.32:788][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2015.03.06-02.51.39:022][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Statue)
+[2015.03.06-02.52.10:653][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2015.03.06-02.52.11:543][997]Cmd: DELETE
+[2015.03.06-02.52.11:544][997]Cmd: ACTOR DELETE
+[2015.03.06-02.52.11:546][997]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-02.52.11:596][997]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2015.03.06-02.52.13:464][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2015.03.06-02.52.14:508][146]Cmd: DELETE
+[2015.03.06-02.52.14:508][146]Cmd: ACTOR DELETE
+[2015.03.06-02.52.14:510][146]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-02.52.14:559][146]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.03.06-02.52.17:977][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-02.52.26:710][668]LogActorFactory: Actor Factory created Wall_500x500
+[2015.03.06-02.52.28:539][756]LogActorFactory: Actor Factory created Wall_500x500
+[2015.03.06-02.52.29:428][798]LogActorFactory: Actor Factory created Wall_500x500
+[2015.03.06-02.53.15:525][974]Cmd: EDIT COPY
+[2015.03.06-02.53.15:898][993]Cmd: EDIT PASTE
+[2015.03.06-02.53.33:072][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-02.53.33:376][777]LogSavePackage: Save=296.111420ms
+[2015.03.06-02.53.33:376][777]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto9B56A387347A545B64E70AFA3F9D33C2B.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto9.umap'
+[2015.03.06-02.53.33:382][777]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.383
+[2015.03.06-02.53.33:382][777]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.383
+[2015.03.06-02.53.34:469][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-02.55.32:787][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2015.03.06-02.55.34:703][549]Cmd: EDIT COPY
+[2015.03.06-02.55.36:986][660]Cmd: EDIT PASTE
+[2015.03.06-02.57.33:026][300]LogActorFactory: Actor Factory created Wall_400x200
+[2015.03.06-02.57.35:126][399]LogActorFactory: Actor Factory created Wall_400x200
+[2015.03.06-02.59.35:085][145]Cmd: TRANSACTION UNDO
+[2015.03.06-02.59.35:085][145]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-02.59.36:680][213]Cmd: TRANSACTION UNDO
+[2015.03.06-02.59.36:680][213]LogEditorTransaction: Undo Set actor scale
+[2015.03.06-02.59.37:448][247]Cmd: TRANSACTION UNDO
+[2015.03.06-02.59.37:448][247]LogEditorTransaction: Undo Set actor scale
+[2015.03.06-03.00.30:500][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-03.00.43:059][404]Cmd: TRANSACTION UNDO
+[2015.03.06-03.00.43:059][404]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.01.23:270][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-03.03.36:898][185]LogActorFactory: Actor Factory created Wall_400x400
+[2015.03.06-03.03.41:043][376]LogActorFactory: Actor Factory created Wall_400x400
+[2015.03.06-03.03.41:767][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-03.03.42:065][393]LogSavePackage: Save=290.136169ms
+[2015.03.06-03.03.42:065][393]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto09E6580C0482395F88841D1AE00D9E5AF.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto0.umap'
+[2015.03.06-03.03.42:078][393]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.393
+[2015.03.06-03.03.42:078][393]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.393
+[2015.03.06-03.06.39:161][718]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x401)
+[2015.03.06-03.06.42:581][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2015.03.06-03.06.48:430][108]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.03.06-03.09.54:228][492]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.03.06-03.10.59:188][461]Cmd: TRANSACTION UNDO
+[2015.03.06-03.10.59:188][461]LogEditorTransaction: Undo Clicking on Brush Vertex
+[2015.03.06-03.13.39:082][771]Cmd: TRANSACTION UNDO
+[2015.03.06-03.13.39:082][771]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.13.47:026][114]Cmd: TRANSACTION UNDO
+[2015.03.06-03.13.47:026][114]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.13.47:485][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-03.13.47:775][115]LogSavePackage: Save=284.060028ms
+[2015.03.06-03.13.47:775][115]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto1EBD85E144D73CF249749A99279830539.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2015.03.06-03.13.47:784][115]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.465
+[2015.03.06-03.13.47:784][115]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.465
+[2015.03.06-03.14.08:527][ 80]LogUnrealMath: Expression Error : No value recognized
+[2015.03.06-03.14.08:527][ 80]LogUnrealMath: Expression Error : Error in expression
+[2015.03.06-03.14.52:828][ 58]LogTexture:Display: Building textures: T_Wood_Walnut_D (AutoDXT)
+[2015.03.06-03.15.01:619][ 58]LogTexture:Display: Building textures: T_Wood_Walnut_N (BC5)
+[2015.03.06-03.15.02:484][ 58]LogMaterial: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2015.03.06-03.15.42:418][342]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2015.03.06-03.15.43:830][394]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2015.03.06-03.16.59:070][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-03.17.18:039][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2015.03.06-03.17.18:907][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2015.03.06-03.23.41:774][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2015.03.06-03.23.48:016][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-03.23.48:276][510]LogSavePackage: Save=252.546860ms
+[2015.03.06-03.23.48:276][510]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto2A83868FE4044CF2762C94783DB14C360.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2015.03.06-03.23.48:284][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.353
+[2015.03.06-03.23.48:284][510]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.353
+[2015.03.06-03.23.48:886][543]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.03.06-03.23.48:923][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.06-03.23.49:015][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.06-03.23.49:015][543]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.03.06-03.23.49:027][543]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.03.06-03.23.49:034][543]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.06-03.23.49:064][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.06-03.23.49:068][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2015.03.06-03.23.49:071][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.03.06-03.23.49:074][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling. 
+[2015.03.06-03.23.49:077][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.03.06-03.23.49:081][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.03.06-03.23.49:084][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.03.06-03.23.49:087][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.03.06-03.23.49:091][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2015.03.06-03.23.49:094][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
+[2015.03.06-03.23.52:467][721]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2015.03.06-03.23.52:467][721]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2015.03.06-03.23.52:468][721]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.06-03.23.52:468][721]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.06-03.25.22:048][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2015.03.06-03.26.18:158][446]Cmd: TRANSACTION UNDO
+[2015.03.06-03.26.18:158][446]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.26.18:600][462]Cmd: TRANSACTION UNDO
+[2015.03.06-03.26.18:600][462]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.26.20:186][551]Cmd: TRANSACTION UNDO
+[2015.03.06-03.26.20:186][551]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.06-03.26.22:138][664]Cmd: TRANSACTION REDO
+[2015.03.06-03.26.22:138][664]LogEditorTransaction: Redo Clicking on Actors
+[2015.03.06-03.26.22:640][692]Cmd: TRANSACTION REDO
+[2015.03.06-03.26.22:640][692]LogEditorTransaction: Redo Scale Actors
+[2015.03.06-03.26.47:391][ 77]Cmd: DELETE
+[2015.03.06-03.26.47:391][ 77]Cmd: ACTOR DELETE
+[2015.03.06-03.26.47:394][ 77]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-03.26.47:433][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007BA8F4180
+[2015.03.06-03.26.47:437][ 77]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2015.03.06-03.26.53:485][432]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.03.06-03.26.59:484][789]Cmd: TRANSACTION UNDO
+[2015.03.06-03.26.59:484][789]LogEditorTransaction: Undo Brush Add
+[2015.03.06-03.27.00:670][848]Cmd: TRANSACTION UNDO
+[2015.03.06-03.27.00:671][848]LogEditorTransaction: Undo Delete Actors
+[2015.03.06-03.27.10:434][343]Cmd: DELETE
+[2015.03.06-03.27.10:434][343]Cmd: ACTOR DELETE
+[2015.03.06-03.27.10:436][343]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-03.27.10:482][343]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2015.03.06-03.27.15:285][625]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.03.06-03.27.42:617][223]Cmd: TRANSACTION UNDO
+[2015.03.06-03.27.42:617][223]LogEditorTransaction: Undo Set actor scale
+[2015.03.06-03.27.43:943][286]Cmd: TRANSACTION UNDO
+[2015.03.06-03.27.43:944][286]LogEditorTransaction: Undo Brush Add
+[2015.03.06-03.28.23:528][575]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.03.06-03.30.29:160][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-03.33.51:606][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-03.33.51:857][798]LogSavePackage: Save=245.851334ms
+[2015.03.06-03.33.51:857][798]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto3C3FE776E437DC7DD10612F88B231707A.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2015.03.06-03.33.51:865][798]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.335
+[2015.03.06-03.33.51:865][798]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.335
+[2015.03.06-03.34.26:456][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
+[2015.03.06-03.35.50:140][667]Cmd: DELETE
+[2015.03.06-03.35.50:140][667]Cmd: ACTOR DELETE
+[2015.03.06-03.35.50:142][667]LogEditorActor: Deleted Actor: Brush
+[2015.03.06-03.35.50:192][667]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.03.06-03.36.26:220][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2015.03.06-03.36.28:698][970]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x500)
+[2015.03.06-03.36.29:314][  3]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x402)
+[2015.03.06-03.36.30:010][ 41]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x501)
+[2015.03.06-03.37.04:939][559]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.04:940][559]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.37.50:736][562]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.50:736][562]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.06-03.37.51:785][611]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.51:785][611]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.06-03.37.52:666][662]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.52:666][662]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.06-03.37.53:586][715]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.53:586][715]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.06-03.37.54:285][757]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.54:285][757]LogEditorTransaction: Undo Delete Actors
+[2015.03.06-03.37.55:726][841]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.55:726][841]LogEditorTransaction: Undo Set Material
+[2015.03.06-03.37.57:867][967]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.57:867][967]LogEditorTransaction: Undo Select Brush Surface
+[2015.03.06-03.37.58:523][  2]Cmd: TRANSACTION UNDO
+[2015.03.06-03.37.58:523][  2]LogEditorTransaction: Undo Edit Hollow
+[2015.03.06-03.38.00:476][117]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.00:476][117]LogEditorTransaction: Undo Edit Hollow
+[2015.03.06-03.38.00:909][141]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.00:909][141]LogEditorTransaction: Undo Edit Tessellated
+[2015.03.06-03.38.01:777][191]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.01:777][191]LogEditorTransaction: Undo Edit Tessellated
+[2015.03.06-03.38.02:378][225]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.02:378][225]LogEditorTransaction: Undo Set Material
+[2015.03.06-03.38.02:921][255]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.02:921][255]LogEditorTransaction: Undo Select Brush Surface
+[2015.03.06-03.38.03:565][291]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.03:565][291]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.06-03.38.04:012][316]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.04:012][316]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.04:021][316]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.04:474][341]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.04:474][341]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.04:483][341]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.05:600][406]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.05:600][406]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.05:607][406]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.06:043][430]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.06:043][430]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.06:051][430]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.06:804][473]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.06:804][473]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.06:812][473]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.07:439][500]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.07:439][500]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.07:461][500]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.07:974][524]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.07:974][524]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.07:996][524]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.08:533][549]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.08:533][549]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.08:552][549]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.09:079][573]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.09:079][573]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.09:098][573]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.09:623][598]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.09:623][598]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.09:644][598]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.10:228][625]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.10:228][625]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.10:248][625]LogActorComponent: ~FComponentReregisterContext: (/Game/NewMap.NewMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2015.03.06-03.38.10:873][654]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.10:873][654]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.11:405][677]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.11:405][677]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.12:017][704]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.12:017][704]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.12:861][742]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.12:861][742]LogEditorTransaction: Undo Select Brush Surface
+[2015.03.06-03.38.13:542][773]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.13:542][773]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.14:250][805]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.14:250][805]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.14:911][835]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.14:911][835]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.15:540][863]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.15:540][863]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.16:154][890]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.16:155][890]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.16:908][924]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.16:908][924]LogEditorTransaction: Undo Select Brush Surface
+[2015.03.06-03.38.18:164][981]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.18:164][981]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.06-03.38.18:649][  3]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.18:649][  3]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.19:192][ 27]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.19:193][ 27]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.19:886][ 58]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.19:886][ 58]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.20:821][100]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.20:821][100]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.21:585][135]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.21:585][135]LogEditorTransaction: Undo Set actor location
+[2015.03.06-03.38.21:925][149]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.21:925][149]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.22:870][192]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.22:871][192]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.23:403][215]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.23:403][215]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.23:842][234]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.23:842][234]LogEditorTransaction: Undo Move Actors
+[2015.03.06-03.38.24:313][255]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.24:313][255]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.38.24:734][273]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.24:735][273]LogEditorTransaction: Undo Brush Add
+[2015.03.06-03.38.25:423][308]Cmd: TRANSACTION UNDO
+[2015.03.06-03.38.25:423][308]LogEditorTransaction: Undo Delete Actors
+[2015.03.06-03.40.03:386][627]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.40.03:386][627]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.40.03:415][627]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.40.03:416][627]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.40.03:428][627]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.40.03:428][627]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.40.03:505][627]LogRenderer:Warning: Reallocating scene render targets to support 808x568 (Frame:463470).
+[2015.03.06-03.41.18:633][584]Cmd: TRANSACTION UNDO
+[2015.03.06-03.41.18:633][584]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.41.32:478][139]Cmd: TRANSACTION UNDO
+[2015.03.06-03.41.32:478][139]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.41.59:730][200]Cmd: TRANSACTION UNDO
+[2015.03.06-03.41.59:731][200]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.43.14:533][ 86]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.43.14:533][ 86]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.43.14:535][ 86]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.43.14:535][ 86]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.43.20:614][314]Cmd: TRANSACTION UNDO
+[2015.03.06-03.43.20:614][314]LogEditorTransaction: Undo Scale Actors
+[2015.03.06-03.43.20:618][314]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.43.20:618][314]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.43.20:619][314]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.43.20:619][314]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.43.52:744][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007C7C09440
+[2015.03.06-03.43.52:801][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-03.43.53:059][646]LogSavePackage: Save=251.672211ms
+[2015.03.06-03.43.53:059][646]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto46B19C9B24547FEDE4D00BAA8FFE6070A.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2015.03.06-03.43.53:067][646]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.346
+[2015.03.06-03.43.53:068][646]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.346
+[2015.03.06-03.46.18:863][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2015.03.06-03.46.28:416][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2015.03.06-03.46.40:605][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.06-03.46.40:881][656]LogSavePackage: Save=253.490662ms
+[2015.03.06-03.46.40:881][656]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMapAED6B1D145DC2EBC2D382492373C06A8.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap'
+[2015.03.06-03.46.40:914][656]LogFileHelpers: Saving map 'NewMap' took 0.406
+[2015.03.06-03.46.42:174][732]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x402)
+[2015.03.06-03.46.43:566][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.03.06-03.53.26:789][868]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.03.06-03.54.02:057][295]Cmd: DELETE
+[2015.03.06-03.54.02:057][295]Cmd: ACTOR DELETE
+[2015.03.06-03.54.02:058][295]LogEditorActor: Deleted Actor: Brush
+[2015.03.06-03.54.02:089][295]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.03.06-03.54.10:792][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2015.03.06-03.54.17:657][220]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.54.17:657][220]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.54.42:311][686]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.54.42:311][686]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.54.47:182][974]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.54.47:182][974]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.54.47:182][974]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.54.47:182][974]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.54.56:226][511]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.54.56:226][511]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.54.56:227][511]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.54.56:227][511]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.54.59:727][715]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.54.59:727][715]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.55.03:222][918]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.55.03:222][918]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.55.03:223][918]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.55.03:223][918]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.55.09:463][226]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.55.09:463][226]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.55.09:464][226]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.06-03.55.09:464][226]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.06-03.56.06:126][345]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.03.06-03.56.16:223][883]Cmd: TRANSACTION UNDO
+[2015.03.06-03.56.16:223][883]LogEditorTransaction: Undo Set Material
+[2015.03.06-03.56.40:702][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.06-03.56.40:970][268]LogSavePackage: Save=261.161682ms
+[2015.03.06-03.56.40:970][268]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMap_Auto5AD887B91417FE3A68217B88F7AFAE646.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/NewMap_Auto5.umap'
+[2015.03.06-03.56.40:978][268]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.344
+[2015.03.06-03.56.40:978][268]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.344
+[2015.03.06-03.57.16:383][215]Cmd: SELECT NONE
+[2015.03.06-03.57.17:859][300]Cmd: DELETE
+[2015.03.06-03.57.17:859][300]Cmd: ACTOR DELETE
+[2015.03.06-03.57.17:860][300]LogEditorActor: Deleted Actor: Brush
+[2015.03.06-03.57.17:912][300]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2015.03.06-03.57.19:076][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2015.03.06-03.57.34:683][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2015.03.06-03.57.35:437][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2015.03.06-03.57.35:762][231]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.03.06-03.57.36:882][295]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.03.06-03.58.04:334][665]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2015.03.06-03.58.14:010][183]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.03.06-03.59.05:052][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2015.03.06-03.59.05:960][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-03.59.15:951][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-03.59.16:366][436]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2015.03.06-03.59.17:529][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-03.59.26:308][873]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2015.03.06-03.59.27:192][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.03.06-03.59.40:590][533]Cmd: DELETE
+[2015.03.06-03.59.40:590][533]Cmd: ACTOR DELETE
+[2015.03.06-03.59.40:593][533]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.06-03.59.40:642][533]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.03.06-03.59.44:608][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.06-03.59.44:911][719]LogSavePackage: Save=273.199249ms
+[2015.03.06-03.59.44:911][719]LogSavePackage: Moving '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Saved/NewMapE07F08B84EFF9D5FDEB052A95A1B831D.tmp' to '../../../../../../Users/Penner/Documents/Unreal Projects/MyProject3/Content/NewMap.umap'
+[2015.03.06-03.59.44:943][719]LogFileHelpers: Saving map 'NewMap' took 0.455
+[2015.03.06-03.59.46:827][784]Cmd: QUIT_EDITOR
+[2015.03.06-03.59.47:063][784]LogExit: Preparing to exit.
+[2015.03.06-03.59.47:576][784]LogExit: Editor shut down
+[2015.03.06-03.59.47:577][784]LogExit: Transaction tracking system shut down
+[2015.03.06-03.59.47:580][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007E656FA60
+[2015.03.06-03.59.47:581][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007E659DEE0
+[2015.03.06-03.59.47:658][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007D7C71760
+[2015.03.06-03.59.47:658][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000007F0264AE0
+[2015.03.06-03.59.47:658][784]LogExit: Object subsystem successfully closed.
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (179)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.06-03.59.47:705][784]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.06-03.59.47:706][784]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.06-03.59.47:909][784]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.06-03.59.47:910][784]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.06-03.59.47:958][784]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.06-03.59.47:958][784]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.06-03.59.47:958][784]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.06-03.59.47:958][784]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.06-03.59.47:958][784]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.06-03.59.47:959][784]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.06-03.59.48:102][784]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.06-03.59.48:103][784]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.06-03.59.48:103][784]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.06-03.59.48:103][784]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.06-03.59.48:103][784]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.06-03.59.48:106][784]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.06-03.59.48:108][784]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.06-03.59.48:108][784]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.06-03.59.48:108][784]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.06-03.59.48:209][784]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.06-03.59.48:209][784]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.06-03.59.48:215][784]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.06-03.59.48:215][784]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.06-03.59.48:216][784]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.06-03.59.48:226][784]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.06-03.59.48:229][784]LogDerivedDataCache: Shutdown
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.06-03.59.48:229][784]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.06-03.59.48:230][784]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.06-03.59.48:241][784]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.06-03.59.48:242][784]LogExit: Exiting.
+[2015.03.06-03.59.48:261][784]Log file closed, 03/06/15 12:59:48
